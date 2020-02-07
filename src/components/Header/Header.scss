@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/images/header-background.png");
+  background-image: url("/mikocin-test-task/images/header-background.png");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -30,7 +30,7 @@
       display: block;
       content: '';
       background-repeat: no-repeat;
-      background-image: url("/images/logo-decorations.png");
+      background-image: url("/mikocin-test-task/images/logo-decorations.png");
       width: 86px;
       height: 56px;
       position: absolute;
@@ -191,7 +191,7 @@
 }
 
 .form-order {
-  background-image: url("/images/form-background.png");
+  background-image: url("/mikocin-test-task/images/form-background.png");
   height: 614px;
   margin-left: -10px;
   max-width: 330px;
@@ -316,7 +316,7 @@
     background-color: #eef2f7;
     & div {
       margin-right: 15px;
-      background-image: url("/images/input-name-icon.png");
+      background-image: url("/mikocin-test-task/images/input-name-icon.png");
       background-size: contain;
       background-repeat: no-repeat;
       /* Style for "Shape 1" */
@@ -340,7 +340,7 @@
   &__input-phone {
     margin-top: 10px;
     & div {
-      background-image: url("/images/input-phone-number.png");
+      background-image: url("/mikocin-test-task/images/input-phone-number.png");
     }
   }
 
@@ -399,16 +399,72 @@
 @media (max-width: 1650px) {
   .header {
     &__content{
-      flex-direction: column;
-      align-items: center;
+      flex-shrink: 2;
     }
 
   }
 
   .info {
 
+    &__form-order {
+      margin-left: 20px;
+    }
+
     &__descriptions {
       justify-content: center;
+    }
+
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    &__content {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+  }
+
+
+
+  .info {
+
+    &__descriptions {
+      margin-top: 28px;
+      display: flex;
+      color: #666666;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 18px;
+    }
+
+    &__description:nth-child(1) {
+      /* Style for "№1 Для изб" */
+      width: 161px;
+      height: 35px;
+
+    }
+
+    &__description:nth-child(2) {
+      /* Style for "Рекомендов" */
+      width: 114px;
+      height: 34px;
+      margin-left: 38px;
+    }
+
+    &__description:nth-child(3) {
+      /* Style for "13000+ дов" */
+      width: 151px;
+      height: 34px;
+      margin-left: 38px;
+    }
+
+
+    &__form-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 58px;
     }
   }
 }
@@ -424,6 +480,7 @@
       flex-direction: column;
       align-items: center;
     }
+
 
     &__descriptions {
       display: flex;
@@ -452,6 +509,12 @@
 @media (max-width: 400px) {
 
   .info {
+
+    &__form-order {
+      margin-left: -20px;
+    }
+
+
     &__product-advantages-heading {
       & div {
         display: flex;

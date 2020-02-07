@@ -10,7 +10,7 @@ const Header = () => (
         className="header__logo-container"
       >
         <img
-          src="/images/mikocin-logo.png"
+          src="/mikocin-test-task/images/mikocin-logo.png"
           alt="mikocin"
           className="logo"
         />
@@ -55,7 +55,7 @@ const Header = () => (
                 устраняет
                 зуд, неприятный запах
               </span>
-              <span> </span>
+              <span>{' '}</span>
               и возвращает эстетичный вид
             </h2>
 
@@ -63,9 +63,9 @@ const Header = () => (
               <span>Таблетки</span>
               {' '}
               Микоцин
-              <span> </span>
+              <span>{' '}</span>
               <span>уничтожают все виды грибка</span>
-              <span> </span>
+              <span>{' '}</span>
               на ногтях и коже
             </h2>
 
@@ -73,7 +73,7 @@ const Header = () => (
               <span>Гель</span>
               {' '}
               Микоцин
-              <span> </span>
+              <span>{' '}</span>
               <span>восстанавливает кожу</span>
               и создает на ней
               {' '}

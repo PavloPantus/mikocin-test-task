@@ -5,7 +5,7 @@ const MainInfo = () => (
   <main className="main">
     <div className="main__content">
 
-      <img src="/images/logo-decorations.png" alt="" />
+      <img src="/mikocin-test-task/images/logo-decorations.png" alt="" />
 
       <p className="main__heading">
         Грибок – это опасная инфекция
@@ -19,7 +19,7 @@ const MainInfo = () => (
       <div className="main__illnesses illnesses">
         <div className="illnesses__illness">
           <img
-            src="/images/first-ilness.png"
+            src="/mikocin-test-task/images/first-ilness.png"
             alt="Сложным формам аллергии"
             className="illnesses__photo"
           />
@@ -39,7 +39,7 @@ const MainInfo = () => (
 
         <div className="illnesses__illness">
           <img
-            src="/images/second-ilness.png"
+            src="/mikocin-test-task/images/second-ilness.png"
             alt="Сложным формам аллергии"
             className="illnesses__photo"
           />
@@ -61,7 +61,7 @@ const MainInfo = () => (
 
         <div className="illnesses__illness">
           <img
-            src="/images/third-ilness.png"
+            src="/mikocin-test-task/images/third-ilness.png"
             alt="Сложным формам аллергии"
             className="illnesses__photo"
           />
