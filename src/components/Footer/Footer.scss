@@ -1,0 +1,52 @@
+.footer{
+  margin-top: 74px;
+
+ &__content {
+   margin: 0 auto;
+   max-width: 1170px;
+ }
+
+  &__statistics {
+    position: relative;
+    /* Style for "Rounded Re" */
+    border: 3px solid #f4d3bb;
+    background-color: #ffffff;
+    padding: 47px 91px;
+    /* Style for "Статистика" */
+    color: #444444;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+
+
+    &:before {
+      position: absolute;
+      content: '';
+      display: block;
+      background-image: url("/images/statistics-logo.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 170px;
+      height: 37px;
+      top: -17px;
+      left: calc(50% - 85px);
+    }
+
+    & span {
+      /* Text style for "С, татисти" */
+      color: #000000;
+      font-family: "Roboto Medium";
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+
+    &__statistics {
+      padding: 17px 11px;
+      text-align: center;
+    }
+  }
+}
